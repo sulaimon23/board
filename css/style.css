@@ -413,21 +413,25 @@ margin: 0 auto;
 }
 .show-menu table{
  width:50%;
- margin:15px  auto 10px auto;
+ margin:10px  auto 5px auto;
 }
-
+.tile h4{
+ font-size: 16px;
+line-height: 22px;
+font-weight: 600;
+}
 .show-menu .tile{
  display: flex;
  justify-content: space-between;
  width:80%;
- margin:  3px auto;
+ margin:0 auto;
 }
 .show-menu .inner-text{
  font-weight: normal;
 font-size: 16px;
 line-height: 22px;
 width: 80%;
-margin: 5px auto;
+margin: 2px auto;
 text-align: left;
 color: #000000;
 }
@@ -438,7 +442,7 @@ background: #F4F4F4;
 border: 1px solid #DBDBDB;
 box-sizing: border-box;
 border-radius: 40px 5px 5px 40px;
-margin-top: 15px;
+margin-top:10px;
 }
 
 .show-menu .input button{
